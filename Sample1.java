@@ -14,12 +14,12 @@ public class Sample1 {
         yearCheck ();
     }
 
-    public static boolean trySum(int c){
+    public static boolean trySum(int c){ // задание 1
         return c >= 10 && c <= 20;
 
     }
 
-    public static void checkNum () {
+    public static void checkNum () { // задание 2
         if (a >= 0) {
             System.out.println("Число положительное");
         } else {
@@ -29,9 +29,9 @@ public class Sample1 {
 
     public static boolean checkNumBool () {
         return a >= 0;
-    }
+    } //задание 3
 
-    public static void printString () {
+    public static void printString () { // задание 4
         String s = "Task2";
         int j = 6;
         for (int i=0; i < j; i++) {
@@ -39,9 +39,9 @@ public class Sample1 {
         }
     }
 
-    public static void yearCheck () {
+    public static void yearCheck () { // задание 5
         int year = 2022;
-        if ((year % 4 == 0) && (year % 100 != 0) || year % 400 ==0) {
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 ==0) {
             System.out.println("Этот год высокосный");
         } else {
             System.out.println("Этот год не высокосный");
